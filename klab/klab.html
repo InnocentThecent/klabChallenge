@@ -1,0 +1,211 @@
+<html>
+    <head>
+        <title>Klab challenge</title>
+        <style>
+            *{
+                font-family: sans-serif;
+                color: rgb(76, 78, 80);
+            }
+            .container{
+                height: 100%;
+                width: 90%;
+                background-color: aqua;
+            }
+             .left_side{
+                float: left;
+                width: 50%;
+                height: 100%;
+                background-color: rgb(67, 84, 236);
+            }
+            .inner_left{
+                float: right;
+                width: 90%;
+                height: 80%;
+                margin-top: 10%;
+                border-bottom-left-radius: 5%;
+                border-top-left-radius: 5%;
+                background-color: rgb(245, 245, 245);
+            }
+            .flash{
+                margin-top: 5%;
+                margin-left: 5%;
+                float: left;
+                background-image: linear-gradient(to right top,rgb(80, 35, 245),rgb(123, 6, 231), rgb(204, 10, 230));
+            height: 10%;
+                width: 10%;
+                border-radius: 10%;
+            }
+            .clever{
+                float: left;
+                margin-top: 5%;
+            }
+            .holder{
+                margin-top: 30px;
+                height: 500px;
+                width: 500px;
+                background-color: aliceblue;
+                border-radius: 50%;
+            }
+            .holder2{
+                margin-top: 5%;
+                height: 400px;
+                width: 400px;
+                background-color: rgb(244, 249, 252);
+                border-radius: 50%;
+            }
+            .holder3{
+                margin: 5%;
+                height: 300px;
+                width: 300px;
+                background-color: rgb(67, 84, 236);
+                border-radius: 50%;
+            }
+            .holder4{
+                margin-top: 3%;
+                margin-left: -6%;
+                height: 250px;
+                width: 340px;
+                background-color:  rgba(238, 235, 235, 0.4);
+                border-radius: 5%;
+            }
+            .right_side{
+                float: left;
+                width: 50%;
+                height: 100%;
+                background-color: rgb(235, 235, 235);
+            }
+            .inner_right{
+                float: left;
+                width: 90%;
+                height: 80%;
+                margin-top: 10%;
+                border-bottom-right-radius: 5%;
+                border-top-right-radius: 5%;
+                background-color: rgb(255, 255, 255);
+            }
+            .form_container{
+                width: 50%;
+                height: 80%;
+                margin-top: 5%;
+                border-radius: 5%;
+                background-color: rgb(235, 235, 235);
+            }
+            form{
+                width: 90%;
+            }
+            label{
+                margin-top: -10px;
+                font-size: 11;
+                color: rgb(85, 83, 81);
+            }
+            .input{
+                font-size: 11;  
+                width: 90%;
+                height: 30px;
+                border-radius: 5px;
+                border: none;
+                align-items: center;
+            }
+            .btn{
+                font-size: 11;
+                width: 90%;
+                height: 35px;
+                border-radius: 5px;                 
+                background-color: rgb(67, 84, 236);
+                color: aliceblue;
+                border: none;
+            }
+            .icon{
+                float: left; width: 20%; height: 10%; background-color: rgb(255, 255, 255); border-radius: 5%;
+                    margin-left: 10%;
+                    margin-top: -10%;
+            }
+            .icon img{
+                height: 60%;
+                width: 40%;
+            }
+            .msg {
+                float: right; width: 10%; height: 10%; background-color: rgb(0, 0, 0); border-radius: 50%;
+                    margin-right: 10%;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <center>
+        <div class="container">
+<div class="left_side">
+    <div class="inner_left">
+    <div class="flash"> <img src="row.svg" alt="row" style="margin-top: 10; height: 50%;
+        width: 30%;"><img src="flash.png" alt="flash" style="margin-top: 10; height: 50%;
+        width: 30%;"></div> 
+    
+    <div class="clever"><p style="background: -webkit-linear-gradient(rgb(182, 83, 248), rgb(0, 38, 255));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;"><b>Clever</b></p>
+        </div>
+    
+    <div class="holder">
+        <br>
+        <div class="holder2">
+            <br>
+            <div class="holder3">
+                <br>
+    <div class="holder4">
+<img src="holder4.PNG" alt="statistics" style="height: 90%; width: 90%; margin-top: 4%;border-radius: 5%; ">
+    </div>
+            </div>
+        </div>
+        <div style="margin-top:-10%; width: 80%">
+            <p>Let's see what we have new, check it out! So maybe write here something more.</p>
+        </div>
+</div>
+<div style=" float: left; height: 5; width: 80; border-radius: 10%; background-color:blue; margin-left:25%;"></div>
+<div style=" float: left; height: 5; width: 80; border-radius: 10%; background-color: rgb(201, 199, 199); margin-left: 5%"></div>
+<div style=" float: left; height: 5; width: 80; border-radius: 10%; background-color: rgb(201, 199, 199); margin-left: 5%"></div>
+    </div>
+</div>
+<div class="right_side">
+    <div class="inner_right">
+        <div class="form_container"><br>
+            <p style="font-size: 14; font-weight: bold; margin-top: -10;">Create your account</p>
+            <p style="font-size: 12;">It's free and easy</p>
+            <form action="#" method="">
+                
+                <label for="names" style="margin-left: -70%;">Your name</label><br>
+                <input type="text" placeholder="Enter your name" name="names" class="input"><br><br>
+                <label for="email" style="margin-left: -36%;">E-mail or Phone number</label><br>
+                <input type="text" placeholder="Type e-mail or Phone number" name="email" class="input"><br><br>
+                <label for="password" style="margin-left: -66%;">Password</label><br>
+                <input type="text" placeholder="Type your password" name="password" class="input"><br>
+                <label style="margin-left: -26%;">Must be 8 characters at least</label>
+                <br><br>
+                <input type="checkbox" name="condition" id="condition"><label for="condition"> by creating an account means you agree to the <b>
+                    terms and condition,</b> and our <b>Privacy Policy</b></label>
+                    <br><br>
+                    <input type="button" value="Register" class="btn">
+                    <br><br>
+                    <label for="account"><a href="#" style="color: rgb(85, 83, 81); text-decoration: none;"> or do it via other account</a></label>
+                <br><br>
+                
+                
+                    
+            </form>
+            <div class="icon">
+                <img src="GoogleLogo.svg" alt="twitter" style="margin: 10 5;">
+            </div>
+            <div class="icon">
+                <img src="apple.png" alt="twitter" style="margin: 10 5;">
+            </div>
+            <div class="icon">
+                <img src="fb3.svg" alt="twitter" style="margin: 10 5;">
+            </div>
+        </div>
+        <div class="msg"><img src="message.svg" alt="twitter" style="margin: 3 5; height: 90%;
+                width: 60%;"></div>
+    </div>
+</div>
+        </div>
+    </center>
+    </body>
+</html>
