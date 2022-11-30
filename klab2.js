@@ -24,6 +24,20 @@ const sum = item.reduce((partialSum, a) => partialSum + a.price , 0);
 console.log('full price of all product is ' + sum + '$');
 
 //4 . Calculate the full price of all product combined and remove product that are under the 10 dollar
-var sumOf = item.reduce((partialSum, a) => partialSum + (a.price > 10), 0);
+function totalAboveTen(array){
+    let total = 0;
 
-console.log('price of all product(>10$) is ' + sumOf + '$');
+    for (let i=0; i<array.length; i++){
+        if (array[i].price <= 10){
+            continue;
+        }
+
+        else {
+            total += array[i].price;
+        }
+    }
+
+    return `The total cost of products above $10 is ${total}`;
+}
+
+console.log( totalAboveTen(item));
